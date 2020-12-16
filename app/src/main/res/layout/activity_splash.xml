@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id ="@+id/errorImage"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        android:cropToPadding="true"
+        android:src="@drawable/zookaeducationlogos" />
+
+    <TextView
+        android:id="@+id/errImage"
+        android:layout_width="match_parent"
+        android:text="ZOOKA EDUCATION"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errorImage"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:textSize="25dp"
+        android:paddingTop="15dp"
+        android:contentDescription="TODO"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"  />
+
+    <TextView
+        android:id="@+id/errorrdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppinsregular"
+        android:gravity="center_horizontal"
+        android:text="Group Of Educational Websites (Zooka Result,Zooka Study,Zooka Tech,Zooka News,Govt. Scheme etc. "
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="30dp"
+        android:cursorVisible="true"
+        android:enabled="true"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:textColor="#FF0000"
+        android:fontFamily="@font/poppinsregular"
+        android:text="@string/developed_by_kuldeep_siraswar"/>
+
+</RelativeLayout>
